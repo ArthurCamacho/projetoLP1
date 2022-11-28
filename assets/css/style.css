@@ -460,6 +460,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume{
+  height: 100vh;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -1154,4 +1158,13 @@ input:focus{
 .tituloTester{
   margin: 10px 10px 10px 30px;
   color: #a8a9b4;
+}
+
+.pesquisa{
+  width: 45vh;
+  background-color: #102542;
+  color: #ffffff;
+  border-radius: 3px;
+  border-style: solid;
+  margin: 5px 10px 30px 10px;
 }
