@@ -76,12 +76,12 @@
     <!-- ======= Hero Section ======= -->
     <section class="tester">
       <h1 class="tituloTester">Teste suas expressões</h1>
-      <form action="" >
+      <form onsubmit="return false">
         <div class="campo regex">
           <input class="caixaTexto" type="text" name="pattern" id="regexPattern" placeholder="Digite seu regex...">
         </div>
         <div class="campo texto">
-          <input class="caixaTexto" type="text" name="texto" id="regexTexto" placeholder="Digite o texto que sera analisado...">
+          <textarea name="texto" id="regexTexto" placeholder="Digite o texto que deve ser analisado..."></textarea>
         </div>
       </form>
     </section>
@@ -142,9 +142,9 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" >
             <h3>Expressões</h3>
-            <form action="">
+            <form onsubmit="return false">
               <input type="text" placeholder="Que tipo de expressão você deseja?" class="pesquisa">
             </form>
             <div class="row">
